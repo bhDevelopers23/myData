@@ -1,0 +1,405 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&family=Poppins:wght@400;600;800&family=Roboto+Mono:wght@300;400;500;600;700&family=Roboto:ital,wght@0,500;1,500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+.navBar
+{
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.navBar h1
+{
+    font-size: 35px;
+    font-weight: 400;
+}
+.navBar h1:hover{
+    color:rgb(97, 15, 205);
+}
+ul 
+{
+    display: flex;
+    list-style: none;
+    
+}
+ul li{
+    padding: 15px;
+}
+ul li a{
+
+    text-decoration: none;
+    padding: 8px 12px;
+    text-transform: uppercase;
+    color:#000
+}
+.navBar .caRt
+{
+    display: flex;
+    align-items: center;
+    word-spacing: 8px;
+    padding: 10px;
+}
+.navBar .caRt h3
+{
+    
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+
+
+}
+li a:hover
+{
+    color: red;
+    background-color: #000;
+    border-radius: 5px;
+
+}
+
+#titleBg
+{
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    
+} 
+#titleBg .titleImage
+{
+    display: flex;
+    height:40vh;
+    flex-wrap: wrap;
+  
+    
+}
+
+#titleBg h1
+{
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+#titleBg h5{
+    font-size: 12px;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+#titleBg a{
+    background-color:#ffff;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 20px;
+    letter-spacing: 2px;
+} 
+.txtMain
+{
+    display: flex;
+    flex-direction: column;
+    margin: 250px auto;
+    width: 50%;
+    color: #000000;
+    justify-content: center;
+    align-items: center;
+
+}
+.txtMain h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+}
+.txtMain p{
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.txtMain a
+{
+    color:darkgray;
+    text-decoration: none;
+    margin-top: 30px;
+}
+.txtMain a:hover
+{
+    color: darksalmon;
+    text-decoration: underline;
+    transition: 0.5s ease-in-out;
+}
+.txtMain h4
+{
+    color:darkgrey;
+    margin-top: 40px;
+    font-weight: 400;
+
+}
+#frtImages
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+.cards img
+{
+    width: 500px;
+    padding: 0 15px 15px;
+    cursor: pointer;
+  
+}
+#frtImages .cards img:hover
+{
+    background-color:bisque;
+    padding: 20px 20px;
+    border-radius: 10px;
+
+}
+.cards h3, h2
+{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+
+}
+.paraMore
+{
+    text-align: center;
+    margin-top: 130px;
+}
+.row
+{
+    display: flex;
+    margin-top: 60px;
+    justify-content:center;
+    align-items: center;
+}
+.card1 img
+{
+    width: 350px;
+    height: 250px;
+    padding: 0 15px 15px;
+    cursor: pointer;
+ 
+}
+.row .card1 img:hover
+{
+   transform: scale(1.1);
+   transition: .6s ease;
+    
+}
+.card1 h3, h2
+{
+    display: flex;
+    justify-content: center;
+    font-weight: 200;
+
+} 
+
+.row1
+{
+    display: flex;
+    margin-top: 60px;
+    justify-content:center;
+    align-items: center;
+}
+.card2 img
+{
+    width: 350px;
+    height: 380px;
+    padding: 0 15px 15px;
+    cursor: pointer;
+
+  
+}
+.row1 .card2 img:hover
+{
+   transform: scale(1.1);
+   transition: .6s ease;
+    
+}
+.card2 h3, h2
+{
+    display: flex;
+    justify-content: center;
+    font-weight: 200;
+
+} 
+.row2
+{
+    display: flex;
+    margin-top: 60px;
+    justify-content:center;
+    align-items: center;
+}
+.card3 img
+{
+    width: 350px;
+    height: 380px;
+    padding: 0 15px 15px;
+    cursor: pointer;
+
+  
+}
+.row2 .card3 img:hover
+{
+   transform: scale(1.1);
+   transition: .6s ease;
+    
+}
+.card3 h3, h2
+{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+
+}
+.txtOffer
+{
+    text-align: center;
+    margin-top: 90px;
+    color:darkgray;
+    font-weight: 400;
+
+
+}
+.bumpOffer .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin: 30px auto;
+    width: 75%;
+
+}
+.bumpOffer .row .col
+{
+     margin-left: 150px;
+
+}
+.row .col h5
+{
+    align-items: center;
+    font-weight: 400;
+    font-size: 12px;
+}
+.row .col h1{
+    font-weight: 400;
+    font-size: 36px;
+    margin: 0 0 20px;
+}
+
+.row .col p
+{
+    margin: 0 0 15px;
+}
+.row .col a
+{
+       
+    background-color: #000;
+    color: #fff;
+    padding: 15px 30px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+.bumpOffer .row .col1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.row .col1 .mainImge img
+{
+    width: 280px;
+    height: 280px;
+    margin: 0 20px 0 0; 
+}
+.colImg img{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 10px;
+    width: 140px;
+    height: 140px; 
+    
+
+}
+.bhMuh
+{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: darkgray;
+    letter-spacing: 3px;
+}
+#bottomSec
+{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+.bttomRow
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 30px auto;
+    width: 90%;
+    
+}  
+.bttomRow img{
+    width: 380px;
+    height: 300px;
+
+
+    
+}
+,.bttomRow p
+{
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+
+}
+.bttomRow a
+{
+    text-decoration: none;
+    color: darkgrey;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.bttomRow a:hover
+{
+    color: chartreuse;
+}
+
+.bttomRow h6{
+    color: darkgray;
+}
+
+.backImage1
+{
+    background-image: url("/images/bg11.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 340px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
